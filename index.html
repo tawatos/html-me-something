@@ -2,40 +2,37 @@
 <html>
 <head>
     <title>Tawatos gallery</title>
-    <style>
-        h1 {background-color: #ff5e00;}
-        header {background-color: #1d8004;}
-        main {background-color: #b3b1ad;}
-        footer {background-color: #ffc400;}
-    </style>
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     
     <header>
-        <h1>-- TAWATOS JOURNEY GALLERY --</h1>
-        <h2>My photo gallery of random stuff I have seen in life.</h2>
-        <a href="#nature">Nature |</a>
-        <a href="#urban">Urban |</a>
-        <a href="#offroad">Offroad |</a>
-        <a href="#others">Other |</a>
-        <a href="#pets">Pets |</a>
+        <h1>Tawatos gallery</h1>
+        <h2>My photo gallery of everyhing worth taking pictures of.</h2>
+        <a href="#nature" class="toc">Nature |</a>
+        <a href="#urban" class="toc">Urban |</a>
+        <a href="#offroad" class="toc">Offroad |</a>
+        <a href="#others" class="toc">Other |</a>
+        <a href="#pets" class="toc">Pets |</a>
     </header>
 
     <main>
         <article>
-            <h3>Camera and Lenses</h3>
-            <ul>
-                <li>Canon EOS 80D</li>
-                <li>Canon EF-S 50mm f/1.8</li>
-                <li>Canon EF-S 24mm f/2.8</li>
-                <li>Sigma 15mm Fisheye</li>
-            </ul>
+            <section id="equipment">
+                <h3>Camera and Lenses</h3>
+                <ul>
+                    <li>Canon EOS 80D</li>
+                    <li>Canon EF-S 50mm f/1.8</li>
+                    <li>Canon EF-S 24mm f/2.8</li>
+                    <li>Sigma 15mm Fisheye</li>
+                </ul>
+            </section>
 
 
             <section>
                 <a name="nature"></a>
-                <h3>Nature</h3>
+                <h3 id="nature">Nature</h3>
                 <p>Taking photos of the nature is anot always easy. Though most of the locations are already beautiful, the lighting is one of the challenges.
                 Finding the right light angle and the right color tone is very challenging.</p>
                 <figure>
@@ -62,7 +59,7 @@
 
             <section>
                 <a name="urban"></a>
-                <h3>Urban</h3>
+                <h3 id="urban">Urban</h3>
                 <p>Taking photos of the city is usually best at night. The light from the city makes the city look very outstanding in the dark sky. 
                 The challenge of this type pf photography is the time needed for the camera to take the light in. A lot of night time photography takes more than 30 seconds per one shot.
                 If the camera is not very still, the picture will come out blurly</p>
@@ -78,7 +75,7 @@
 
             <section>
                 <a name="offroad"></a>
-                <h3>Offroad</h3>
+                <h3 id="offroad">Offroad</h3>
                 <p>Offroading is one of my favorite hobby. Getting to drive where there is no road and very challenging to drive on is very fun and satisfying.</p>
                 <figure>
                         <img src="images/Image00026.JPG" alt="Jeep" height="200">
@@ -89,7 +86,7 @@
 
             <section>
                 <a name="others"></a>
-                <h3>Others</h3>
+                <h3 id ="others">Others</h3>
                 <p>These are just random pictures I took.</p>
                 <figure>
                         <img src="images/Image00008.JPG" alt="Sea of Blue" height="200">
@@ -104,7 +101,7 @@
 
             <section>
                 <a name="pets"></a>
-                <h3>Pets</h3>
+                <h3 id="pets">Pets</h3>
                 <p>Meet Joey the dog!</p>
                 <figure>
                         <img src="images/Image00010.JPG" alt="Joey the Dog" height="200">
@@ -118,11 +115,11 @@
 
 
     <footer>
-        <a href="#nature">Nature |</a>
-        <a href="#urban">Urban |</a>
-        <a href="#offroad">Offroad |</a>
-        <a href="#others">Other |</a>
-        <a href="#pets">Pets |</a>
+        <a href="#nature" class="toc">Nature |</a>
+        <a href="#urban" class="toc">Urban |</a>
+        <a href="#offroad" class="toc">Offroad |</a>
+        <a href="#others" class="toc">Other |</a>
+        <a href="#pets" class="toc">Pets |</a>
         <p>&copy; 2019 Tawatos Phadungsoondararak</p>
     </footer>
 </body>
